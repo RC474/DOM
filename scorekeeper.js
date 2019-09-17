@@ -57,5 +57,6 @@ p2button.addEventListener("click", function() {
   numinput.addEventListener("change", function() {
     winningScoreDisplay.textContent = numinput.value;
     winningScore = Number(numinput.value);
+    
     reset();
   });
